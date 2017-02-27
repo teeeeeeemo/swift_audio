@@ -13,6 +13,10 @@
 		E7EF802E1E6407A50001740C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7EF802D1E6407A50001740C /* Assets.xcassets */; };
 		E7EF80311E6407A50001740C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7EF802F1E6407A50001740C /* LaunchScreen.storyboard */; };
 		E7EF80391E640C1C0001740C /* orange_op.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7EF80381E640C1C0001740C /* orange_op.mp3 */; };
+		E7EF803D1E6436030001740C /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF803A1E6436030001740C /* pause.png */; };
+		E7EF803E1E6436030001740C /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF803B1E6436030001740C /* play.png */; };
+		E7EF803F1E6436030001740C /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF803C1E6436030001740C /* record.png */; };
+		E7EF80411E64362B0001740C /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = E7EF80401E64362B0001740C /* stop.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E7EF80301E6407A50001740C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7EF80321E6407A50001740C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7EF80381E640C1C0001740C /* orange_op.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orange_op.mp3; sourceTree = "<group>"; };
+		E7EF803A1E6436030001740C /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		E7EF803B1E6436030001740C /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E7EF803C1E6436030001740C /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
+		E7EF80401E64362B0001740C /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 		E7EF80251E6407A50001740C /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				E7EF803A1E6436030001740C /* pause.png */,
+				E7EF80401E64362B0001740C /* stop.png */,
+				E7EF803B1E6436030001740C /* play.png */,
+				E7EF803C1E6436030001740C /* record.png */,
 				E7EF80381E640C1C0001740C /* orange_op.mp3 */,
 				E7EF80261E6407A50001740C /* AppDelegate.swift */,
 				E7EF80281E6407A50001740C /* ViewController.swift */,
@@ -128,9 +140,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7EF80311E6407A50001740C /* LaunchScreen.storyboard in Resources */,
+				E7EF80411E64362B0001740C /* stop.png in Resources */,
 				E7EF80391E640C1C0001740C /* orange_op.mp3 in Resources */,
+				E7EF803F1E6436030001740C /* record.png in Resources */,
+				E7EF803D1E6436030001740C /* pause.png in Resources */,
 				E7EF802E1E6407A50001740C /* Assets.xcassets in Resources */,
 				E7EF802C1E6407A50001740C /* Main.storyboard in Resources */,
+				E7EF803E1E6436030001740C /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

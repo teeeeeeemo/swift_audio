@@ -121,6 +121,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gio-mb-spP">
+                                <rect key="frame" x="40" y="437" width="240" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -129,6 +133,7 @@
                         <outlet property="btnPlay" destination="Qet-eX-S1a" id="2Fe-CF-Klf"/>
                         <outlet property="btnRecord" destination="xL3-yG-n0B" id="tKm-dn-RPQ"/>
                         <outlet property="btnStop" destination="jBK-un-MjN" id="z8Q-Sd-uzE"/>
+                        <outlet property="imageView" destination="gio-mb-spP" id="rxm-6Y-NAw"/>
                         <outlet property="lblCurrentTime" destination="8t9-g5-ubl" id="Oq8-jb-ITc"/>
                         <outlet property="lblEndTime" destination="cXd-Wl-aH5" id="xKx-0h-EdR"/>
                         <outlet property="lblRecordTime" destination="6ky-kp-P3C" id="1yr-FT-SFm"/>
